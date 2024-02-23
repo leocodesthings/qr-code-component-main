@@ -29,18 +29,29 @@
     }
 
     img {
-      /* TODO: find a display which obeys flexbox */
       height: 200px;
     }
     
+    img, .card-wrapper {
+      border-radius: 10px;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 100vh;
+    }
+
     .card-wrapper {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
       
-      height: 100%;
-      width: 400px;
+      width: 200px;
+      padding: 20px;
 
       background-color: hsl(0, 0%, 100%);
     }
@@ -63,10 +74,15 @@
 
     p:first-of-type {
       font-weight: 700;
+      font-size: 15px;
+      display: flex;
     }
 
     p:last-of-type {
       font-weight: 400;
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+      margin-top: -5px;
     }
 
     

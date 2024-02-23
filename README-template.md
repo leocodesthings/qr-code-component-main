@@ -81,7 +81,11 @@ const proudOfThisFunc = () => {
 
 2. To include this font, get the embed code and place it in the HTML (@AlexKMarshall: this is more performant as the browser will download the fonts as soon as the HTML is parsed)
 
-3.
+3. I was having trouble with getting the div wrapper to be the entire view, to fix this:
+
+.wrapper {
+  height: 100vh;
+}
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
